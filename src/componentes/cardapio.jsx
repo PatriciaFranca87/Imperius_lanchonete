@@ -1,14 +1,14 @@
 import React from "react";
 
 const itens = [
-    { nome: "Cachorro Quente", preco: 7.0, imagem: "/public/imagens/cachorro_quente.png" },
-    { nome: "Bauru Simples", preco: 10.3, imagem: "/public/imagens/bauru.png" },
-    { nome: "Bauru com Ovo", preco: 15.0, imagem: "/public/imagens/bauru_com_ovo.png" },
-    { nome: "Hamburger", preco: 7.0, imagem:"/public/imagens/hamburguer.png" },
-    { nome: "Cheeseburger", preco: 9.0, imagem: "/public/imagens/cheeseburguer.png" },
-    { nome: "Refrigerante", preco: 9.0, imagem: "/public/imagens/refrigerante.png" },
-    { nome: "Suco de Laranja", preco: 10.5, imagem: "/public/imagens/Suco.png" },
-    { nome: "Batata Frita", preco: 20.0, imagem: "/public/imagens/Batatafrita.png" },
+    { nome: "Cachorro Quente", preco: 7.0, imagem: "./public/imagens/cachorro_quente.png" },
+    { nome: "Bauru Simples", preco: 10.3, imagem: "./public/imagens/bauru.png" },
+    { nome: "Bauru com Ovo", preco: 15.0, imagem: "./public/imagens/bauru_com_ovo.png" },
+    { nome: "Hamburger", preco: 7.0, imagem:"./public/imagens/hamburguer.png" },
+    { nome: "Cheeseburger", preco: 9.0, imagem: "./public/imagens/cheeseburguer.png" },
+    { nome: "Refrigerante", preco: 9.0, imagem: "./public/imagens/refrigerante.png" },
+    { nome: "Suco de Laranja", preco: 10.5, imagem: "./public/imagens/Suco.png" },
+    { nome: "Batata Frita", preco: 20.0, imagem: "./public/imagens/Batatafrita.png" },
 ];
 
 function Cardapio(){
